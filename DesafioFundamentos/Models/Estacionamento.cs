@@ -28,7 +28,6 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Placa inválida. Tente novamente.");
             }
         }
-        }
 
         public void RemoverVeiculo()
         {
