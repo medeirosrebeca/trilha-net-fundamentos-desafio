@@ -66,6 +66,7 @@ namespace DesafioFundamentos.Models
         public void ListarVeiculos()
         {
             // Verifica se há veículos no estacionamento
+            // *IMPLEMENTE AQUI*
             if (veiculos.Any())
             {
                 Console.WriteLine("Os veículos estacionados são:");
@@ -74,7 +75,6 @@ namespace DesafioFundamentos.Models
                 {
                 Console.WriteLine(veiculo);
                 }
-                // *IMPLEMENTE AQUI*
             }
             else
             {
